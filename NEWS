@@ -1,3 +1,12 @@
+# cosinor 1.2.2
+
+* Update shiny app url
+
+# cosinor 1.2.1
+
+* Fix for roxygen update
+* Fix for tibbles instead of dataframes
+
 # cosinor 1.1
 
 * Added shiny app function
