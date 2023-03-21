@@ -14,13 +14,13 @@ NULL
 #' @examples
 #'
 #' fit <- cosinor.lm(Y ~ time(time) + X + amp.acro(X), data = vitamind)
-#' ggplot.cosinor.lm(fit, "X")
+#' ggplot_cosinor.lm(fit, "X")
 #'
-#' @export ggplot.cosinor.lm
+#' @export ggplot_cosinor.lm
 #' @export
 #'
 #'
-ggplot.cosinor.lm <- function(object, x_str = NULL){
+ggplot_cosinor.lm <- function(object, x_str = NULL){
 
   timeax <- seq(0, object$period, length.out = 200)
   covars <- grep("(rrr|sss)", attr(object$fit$terms, "term.labels"), invert = TRUE, value = TRUE)

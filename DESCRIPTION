@@ -1,8 +1,8 @@
 Package: cosinor
 Type: Package
 Title: Tools for Estimating and Predicting the Cosinor Model
-Version: 1.2.2
-Date: 2022-05-24
+Version: 1.2.3
+Date: 2023-03-19
 Author: Michael Sachs <sachsmc@gmail.com>
 Maintainer: Michael Sachs <sachsmc@gmail.com>
 Description: A set of simple functions that transforms longitudinal
@@ -16,8 +16,8 @@ Suggests: knitr
 License: MIT + file LICENSE
 LazyData: true
 VignetteBuilder: knitr
-RoxygenNote: 7.1.1
+RoxygenNote: 7.2.1
 NeedsCompilation: no
-Packaged: 2022-05-24 08:51:05 UTC; micsac
+Packaged: 2023-03-21 07:55:13 UTC; sachsmc
 Repository: CRAN
-Date/Publication: 2022-05-24 10:20:02 UTC
+Date/Publication: 2023-03-21 08:20:02 UTC

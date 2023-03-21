@@ -22,7 +22,7 @@ summary(predict(fit))
 
 ## -----------------------------------------------------------------------------
 library(ggplot2)
-ggplot.cosinor.lm(fit, x_str = "X")
+ggplot_cosinor.lm(fit, x_str = "X")
 
 ## ----eval = FALSE-------------------------------------------------------------
 #  cosinor_analyzer(vitamind)

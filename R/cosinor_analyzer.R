@@ -82,7 +82,7 @@ cosinor_analyzer <- function(data = NULL){
 
 
 
-         p1 <-  ggplot.cosinor.lm(myFit(), input$X)
+         p1 <-  ggplot_cosinor.lm(myFit(), input$X)
 
          if(input$points){
 

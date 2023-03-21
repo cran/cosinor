@@ -1,3 +1,7 @@
+# cosinor 1.2.3
+
+* renamed ggplot.cosinor.lm to ggplot_cosinor.lm
+
 # cosinor 1.2.2
 
 * Update shiny app url

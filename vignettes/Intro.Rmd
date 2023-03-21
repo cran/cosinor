@@ -64,7 +64,7 @@ Plotting the fitted curves is also easy to do. Currently only `ggplot2` is suppo
 
 ```{r}
 library(ggplot2)
-ggplot.cosinor.lm(fit, x_str = "X")
+ggplot_cosinor.lm(fit, x_str = "X")
 ```
 
 The package comes with an interactive web app that can be used to analyze your own data. If you have your data loaded in R as a `data.frame`, run the command 
